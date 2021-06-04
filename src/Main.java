@@ -55,6 +55,7 @@ public class Main {
         m.read(System.getProperty("user.dir")+"\\sample4\\pointers.csv");
         m.read(System.getProperty("user.dir")+"\\sample4\\roots.txt");
         */
+
         CopyGC GC=new CopyGC();
         GC.Copy();
         String path=sc.nextLine();
